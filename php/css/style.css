@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /*NAV BAREN*/
+  nav {
+    width: 100%;
+    padding: 15px 0; 
+    background-color: rgb(0, 22, 51);
+  }
+  
+  nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px 0 0;
+  }
+  
+  nav ul li a{
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+  }
+  
+  /*PRODUCTS*/
+  .products-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .products-container .products-wrapper {
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 0;
+    box-shadow: 0 5px 5px rgba(128, 128, 128, 0.356);
+    margin-top: 20px;
+  }
+  
+  .products-wrapper .btns-container button {
+    background-color: rgb(0, 28, 51);
+    text-decoration: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .products-wrapper .btns-container a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* ADD & UPDATE FORM */
+  
+  .form-container{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  
+  .form-container form{
+      display: flex;
+      flex-direction: column;
+  
+      width: 35%;
+  }
+  
+  form input{
+      width: 100%;
+      padding: 12px 7px;
+      /* margin: 0 0 20px; */
+  }
+
+  form span{
+      margin: 5px 0 20px;
+      color: red;
+  }
+  
+  form .add-btn-container{
+      text-align: start;
+  }
+  
+  .add-btn-container button{
+      width: 35%;
+      padding: 10px 0;
+      border: none;
+      background-color: rgb(0, 28, 51);
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .ServerErrors{
+    margin: 20px 0 10px;
+    color: rgb(255, 0, 0);
+    text-align: center;
+  }
