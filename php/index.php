@@ -3,7 +3,7 @@ require_once './Layout/navbar.php';
 require_once './Layout/head.php';
 
 $ch = curl_init();
-$url = "https://projektet-3portssystem-dbun.vercel.app/";
+$url = "https://3partssystem-enskilda-projektet.vercel.app/";
 
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

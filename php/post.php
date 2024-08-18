@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $price = $_POST['price'];
 
     $ch = curl_init();
-    $url = "https://projektet-3portssystem-dbun.vercel.app/post";
+    $url = "https://3partssystem-enskilda-projektet.vercel.app/post";
 
     $newProduct = [
         "title" => $title,

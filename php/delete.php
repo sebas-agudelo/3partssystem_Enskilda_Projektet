@@ -4,7 +4,7 @@ $id = "";
 $id = $_GET['id'];
 
 $ch = curl_init();
-$url = "https://projektet-3portssystem-dbun.vercel.app/delete/$id";
+$url = "https://3partssystem-enskilda-projektet.vercel.app/delete/$id";
 
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

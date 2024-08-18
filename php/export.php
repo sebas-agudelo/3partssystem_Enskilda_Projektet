@@ -8,7 +8,7 @@ $output = fopen('php://output', 'w');
 fputcsv($output, array('ID', 'Title', 'Price', 'Image'), ';');
 
 $ch = curl_init();
-$url = "https://projektet-3portssystem-dbun.vercel.app/";
+$url = "https://3partssystem-enskilda-projektet.vercel.app/";
 
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
